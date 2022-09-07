@@ -6,7 +6,7 @@ btnV.addEventListener("click",function(e){
     let res = document.getElementById("alertResultado");
 
     console.log(campo1);
-    
+
     let num =campo1 / 3;
     if ((Number.isInteger(num))) {
         res.innerHTML = campo1 + " es multiplo de 3";
@@ -20,5 +20,5 @@ btnV.addEventListener("click",function(e){
         document.getElementById("n1").style.borderColor = "#ed3b3b";
         res.innerHTML = "El valor esta fuera del rango";
     }
-    
+
 });
